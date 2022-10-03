@@ -39,10 +39,31 @@ I even have an idea that if I can find the event ID that launches when chrome is
 
 ---
 
-** ## Prerequisites**
+## Prerequisites
 
 Before you run this script blindly, ask yourself, does what I describe in the "problem" section sound like a problem you may have? if yes, and you're willing to take this risk, then ok, proceed!
 
 - Ensure you have administrative rights to your profile (or an windows administrator could help you)
 - Download/install the lastest [Microsoft Terminal](https://github.com/microsoft/terminal)
-- Download the Chrome-fix.ps1
+- Download the [chrome-fix.ps1](https://raw.githubusercontent.com/raydred/chrome-fix-for-odd-user32-dll-error-win11/main/chrome-fix.ps1)
+
+## Before running the script, read these assumptions
+
+I asssume:
+- that Chrome was/is installed to it's default location
+- Windows Terminal can "run as administrator" just fine
+- Windows Terminal installed to it's default location
+- You know how to set the execution policy in powershell.
+
+## Running the script
+Do the following to run the script:
+- Load up Windows Terminal as Administrator
+- Make sure the windows terminal is using the powershell 7 profile
+- CD (change directory) to the location you downloaded the chrome-fix.ps1 file.
+- Run the script using this command ` .\chrome-fix.ps1 `
+- If all is well, the script will run, fixing the chrome binary using the method in the intro.
+
+If you have any issues, post them on the issues page.
+
+
+
