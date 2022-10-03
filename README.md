@@ -27,7 +27,7 @@ For some reason, a month or 2 after I upgraded to Windows 11, my Chrome stopped 
 
 Ok fine! So what I've been able to gather is, User32.dll is causing a fault with Chrome and won't allow it to launch for whatever reason. I'm not a windows programmer, so I'm at a loss to understand the nuances of the error. 
 
-However, if you rename the ==chrome.exe== binary, to something else, it would work. 
+However, if you rename the == chrome.exe == binary, to something else, it would work. 
 But here's the issue *that* caused.
 
 If you wanted chrome to update, it would fail. and get all weird. So I had a brilliant IDEA! If you copy the binary, with an underscore preceding the name, then create a symbolic link of "chrome.exe" ==> "_chrome.exe", then the update works, everthing works, until the browser gets updated again...
