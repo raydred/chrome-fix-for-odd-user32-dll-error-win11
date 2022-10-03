@@ -11,12 +11,12 @@ For some reason, a month or 2 after I upgraded to Windows 11, my Chrome stopped 
 
 - Googled solutions
 - Tried a bunch of solutions
-- uninstalled a hyberbolic amount of times
-- reinstalled a hyberbolic amount of times
+- uninstalled chrome a hyberbolic amount of times
+- reinstalled chrome a hyberbolic amount of times
 - Event log research
 - Tried a bunch more solutions
-- uninstalled a hyberbolic amount of times, again
-- reinstalled a hyberbolic amount of times, again
+- uninstalled chrome a hyberbolic amount of times, again
+- reinstalled chrome a hyberbolic amount of times, again
 - gave up
 - got back in!
 - decided to fix it.
