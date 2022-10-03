@@ -9,7 +9,7 @@ My powershell script solution for a weird error that prevented chrome to run on 
 
 I recognize that Windows (11,10) is a very complex system. With that said, **IT SUCKS! WINDOWS TOTALLY SUCK!** Now that I got that out of the way, I'll continue to the issue at hand...
 
-![image](https://user-images.githubusercontent.com/1664423/193492886-f1153639-dc05-4c64-a8b7-dd98adbf4809.png)
+
 
 
 For some reason, a month or 2 after I upgraded to Windows 11, my Chrome stopped working. It was bizarre, it's still bizarre. I can't remember when it stopped, but MONTHS ago, it stopped working. I switched to firefox until the same thing happened. At that point, I needed my Chrome browser back. I did the following :
@@ -29,6 +29,8 @@ For some reason, a month or 2 after I upgraded to Windows 11, my Chrome stopped 
 ## Get to the point!
 
 Ok fine! So what I've been able to gather is, User32.dll is causing a fault with Chrome and won't allow it to launch for whatever reason. I'm not a windows programmer, so I'm at a loss to understand the nuances of the error. 
+
+![image](https://user-images.githubusercontent.com/1664423/193492886-f1153639-dc05-4c64-a8b7-dd98adbf4809.png)
 
 However, if you rename the **chrome.exe** binary, to something else, it would work. 
 But here's the issue *that* caused.
